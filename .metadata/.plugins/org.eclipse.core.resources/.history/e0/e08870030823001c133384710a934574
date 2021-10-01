@@ -1,0 +1,17 @@
+package lista;
+
+import java.util.Scanner;
+
+public class l15 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Digite o tamanho da área a ser pintada: ");
+		int area = input.nextInt();
+		input.close();
+		int litro = area / 3;
+		int latas = math.ceil(litro / 18);
+		System.out.println("precisará de " + latas + " latas");
+	}
+
+}

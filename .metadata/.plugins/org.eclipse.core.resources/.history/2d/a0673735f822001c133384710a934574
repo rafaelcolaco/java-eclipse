@@ -1,0 +1,19 @@
+package lista;
+
+import java.util.Scanner;
+
+
+public class l9 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.print("Digite a temperatura em Fahrenheit: ");
+		double tempF = scan.nextDouble();
+		scan.close();
+		double tempCelsius = 5 * (tempF-32) / 9;
+		System.out.println("A temperatura em graus Celsius: " + tempCelsius + "°C");
+		
+	}
+
+}
